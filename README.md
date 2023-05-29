@@ -1,5 +1,12 @@
 # CKY Algorithm for CFG and PCFG parsing
 
+The project implements the CKY algorithm for CFG and PCFG parsing. It includes the following parts:
+- reading and verifying the grammar
+- membership checking with CKY
+- parsing with backpointers
+- retrieving a parse tree
+- evaluating the parser
+
 ## Usage
 
 ## Output
