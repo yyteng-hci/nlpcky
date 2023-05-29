@@ -8,9 +8,9 @@ The project implements the CKY algorithm for CFG and PCFG parsing. It includes t
 - evaluating the parser
 
 ## Usage
-'''python
+```python
 python evaluate_parser.py atis3.pcfg atis3_test.ptb
-'''
+```
 
 ## Output
 
