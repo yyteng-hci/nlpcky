@@ -7,6 +7,13 @@ The project implements the CKY algorithm for CFG and PCFG parsing. It includes t
 - retrieving a parse tree
 - evaluating the parser
 
+## Data
+Data is extracted from the ATIS (Air Travel Information Services) subsection of the Penn Treebank. ATIS is originally a spoken language corpus containing user queries about air travel. These queries have been transcribed into text and annotated with Penn Treebank phrase structure syntax. 
+
+There are 2 data files:
+- atis3.pcfg contains the PCFG grammar
+- atis3_test.ptb contains the test corpus
+
 ## Usage
 ```python
 python evaluate_parser.py atis3.pcfg atis3_test.ptb
@@ -307,9 +314,4 @@ P:1.0 R:1.0 F:1.0
 Coverage: 67.24%, Average F-score (parsed sentences): 0.9504475408614075, Average F-score (all sentences): 0.6390940360964636
 ```
 
-## Data
-Data is extracted from the ATIS (Air Travel Information Services) subsection of the Penn Treebank. ATIS is originally a spoken language corpus containing user queries about air travel. These queries have been transcribed into text and annotated with Penn Treebank phrase structure syntax. 
 
-There are 2 data files:
-- atis3.pcfg contains the PCFG grammar
-- atis3_test.ptb contains the test corpus
